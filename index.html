@@ -1,12 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
-<body>
-    
+
+<body id="body">
+    <div class="contenedor">
+        <nav class="contenedor-nav">
+            <div class="nav-btn-cont" id="navbarNav">
+                <ul class="nav-btns">
+                    <li class="nav-btn">
+                        <a class="navbar-link" id="inicio" aria-current="page" href="#container-inicio">Inicio</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a class="navbar-link" id="sobre-mi" aria-current="page" href="#sobre-mi-container">Sobre mi</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a class="navbar-link" id="habilidades" aria-current="page"
+                            href="#habilidades-container">Habilidades</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a class="navbar-link" id="contactame" aria-current="page"
+                            href="#contactame-container">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-inicio" id="container-inicio">
+            <div class="contenido-inicio">
+                <span class="navbar-brand nav-nombre">Segovia Veronica</span>
+                <h1 class="titulo-inicio">
+                    Desarrolladora Frontend
+                </h1>
+                <p class="texto-inicio">HTML5 - CSS3 - JavaScript</p>
+                <a href="#contactame-container" class="btn-inicio">Contactame</a>
+            </div>
+        </div>
+
+        <section class="sobre-mi" id="sobre-mi-container">
+            <h1 class="titulo-mi">Sobre Mi</h1>
+            <div class="container-mi">
+                <figure class="mi-img" id="img-foto">
+                    <img class="img-foto" src="./imagenes/foto.jpg">
+                </figure>
+                <div class="sobre-mi-text">
+                    <p class="text">He dedicado mi tiempo a formarme y crecer en mis estudios. para ello me he dedicado
+                        a
+                        estudiar lo
+                        que me apasiona que es el desarrollo: <br /><br />
+                        <hr>
+                        *DESARROLLADOR WEB-actualmente en curso (Argentina programa)
+                        <hr>
+                        *SECUNDARIO- Graduado.
+                        <hr><br />
+                        Tengo una gran capacidad para trabajar en equipo y con la mejor intencion de crecer en este
+                        ambito.
+                        Si necesitas ayuda CONTACTAME!
+                    </p>
+                    <button class="btn-a-contacto" href="#contactame-container">Contacto</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades-container">
+            <div class="contenedor-conocimientos">
+                <h2 title="titulo conocimientos" class="titulo-conocimientos">
+                    Mis conocimientos
+                </h2>
+                <p class="descripcion-conocimientos">
+                    Sección donde se encuentran los conocimientos adquiridos en<br> Desarrollo
+                    Front End
+                </p>
+                <div class="contenedor-cuadros-conocimientos">
+                    <div aria-label="lenguaje html 5" title="html 5" class="cuadro-item-conocimiento">
+                        <img alt="logo de html" class="img-item-conocimiento"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                        HTML 5
+                    </div>
+                    <div aria-label="lenguaje css3" title="css 3" class="cuadro-item-conocimiento">
+                        <img alt="logo de css" class="img-item-conocimiento"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+                        CSS 3
+                    </div>
+                    <div aria-label="lenguaje sass" title="sass" class="cuadro-item-conocimiento">
+                        <img alt="logo de sass" class="img-item-conocimiento"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                        Sass
+                    </div>
+                    <div aria-label="lenguaje javascript" class="cuadro-item-conocimiento">
+                        <img alt="logo de javascript" title="javascript-conocimiento" class="img-item-conocimiento"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                        JavaScript
+                    </div>
+                    <div aria-label="lenguaje react" class="cuadro-item-conocimiento">
+                        <img alt="logo de react" title="react" class="img-item-conocimiento"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                        React
+                    </div>
+                    <div aria-label="lenguaje git" class="cuadro-item-conocimiento">
+                        <img alt="logo de git" title="git" class="img-item-conocimiento"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                        GIT
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mi-contacto" id="contactame-container" aria-label="sección de contacto">
+            <div class="contenedor-contacto-escribime">
+                <section class="columna-contacto">
+                    <h2 aria-label="seccion de links de contacto" title="titulo contacto" class="titulo-contacto">
+                        Contactame
+                    </h2>
+                    <p class="texto-contacto">
+                        A continuacion encontrarán los medios donde podran buscar más informacion sobre mi, mis
+                        conocimientos y experiencia.
+                    </p>
+                    <ul class="links-contacto" aria-label="links de contacto" title="links de contacto">
+
+                        <li aria-label="link a twiter" title="twiter" class="links-item-contacto">
+                            <a href="https://twitter.com/veronica04128" class="img-item-contacto">
+                                <i class="item-contacto fa-brands fa-twitter"></i>
+                                @veronica04128
+                            </a>
+                        </li>
+
+                        <li class="links-item-contacto" aria-label="link  a github" title="github">
+                            <a href="https://github.com/VeroS04" class="img-item-contacto">
+                                <i class="item-contacto fa-brands fa-github-alt"></i>
+                                VeronicaSegovia
+                            </a>
+                        </li>
+
+                        <li class="links-item-contacto" aria-label="link a linkedin" title="linkedin">
+                            <a href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="img-item-contacto">
+                                <i class="item-contacto fa-brands fa-linkedin"></i>
+                                Veronica Segovia
+                            </a>
+                        </li>
+
+                        <li class="links-item-contacto mail-link" aria-label="link a e-mail" title="e-mail">
+                            <a href="https://mail.google.com/" class="img-item-contacto">
+                                <i class="item-contacto fa-solid fa-envelope"></i>
+                                veronica.c.segovia@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
 </body>
+
 </html>

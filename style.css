@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+/* inicio navegacion */
+
+.contenedor-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn-cont {
+  display: flex;
+  width: 60%;
+  margin: 1%;
+}
+
+.nav-btns{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-btn {
+  font-size: 1.5em;
+  background-color: #e2c5fc;
+  font-weight: bold;
+  text-align: center;
+  width: 23%;
+}
+
+.nav-btn:hover {
+  background-color: #ac18b4;
+}
+
+/* fin navegacion */
+
+/* inicio seccion inicio */
+
+.container-inicio {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-conexion-red-degradado_23-2148879890.jpg?w=1380&t=st=1675184756~exp=1675185356~hmac=498b409661bcc83087421ddb6d62b2f509a7a21f8cc91cedcc1c4678056d8cea);
+}
+
+.contenido-inicio {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-nombre {
+  font-size: 4.5em;
+  margin-bottom: 1%;
+  text-decoration: underline;
+  color: rgb(230, 134, 10);
+}
+
+.nav-nombre:hover {
+  color: #8e0295;
+}
+
+
+.titulo-inicio {
+  color: burlywood;
+  font-size: 3em;
+}
+
+.texto-inicio {
+  color: coral;
+  font-size: 1.5em;
+}
+
+.btn-inicio {
+  background-color: chocolate;
+  width: 12%;
+  font-size: 2em;
+  color: #3a2c35;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* fin seccion inicio */
+
+/* inicio sobre mi */
+
+.titulo-mi {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  color: #c5fcee;
+}
+
+.container-mi {
+  display: flex;
+  justify-content: center;
+  color: #c5fcee;
+}
+
+.mi-img {
+  width: 50%;
+  padding: 2%;
+}
+
+.img-foto {
+  filter: grayscale(50%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.sobre-mi-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.3em;
+  padding: 2%;
+}
+
+.btn-a-contacto {
+  padding: 0.5%;
+  border-radius: 10px;
+  width: 15%;
+  font-size: 1.1em;
+  background-color: cornflowerblue;
+}
+
+/* fin sobre mi */
+
+/* inicio conocimientos */
+
+.mis-conocimientos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-conocimientos {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/689/20/945/minimalism-web-development-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.titulo-conocimientos {
+  font-size: 2.5em;
+  margin-top: 2%;
+  color: #c5fcee;
+}
+
+.descripcion-conocimientos {
+  font-size: 1.2em;
+  margin-top: 2%;
+  color: #c5fcee;
+}
+
+.contenedor-cuadros-conocimientos {
+  margin-top: 2%;
+  width: 40%;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cuadro-item-conocimiento {
+  text-align: center;
+  margin-bottom: 5%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c5fcee;
+}
+
+.img-item-conocimiento {
+  width: 50%;
+  margin: 8%;
+  color: white;
+}
+
+.cuadro-item-conocimiento:hover {
+  background: repeating-radial-gradient(#c5fcee, #9e0df8);
+  border-radius: 55px;
+  transition: 0.8s;
+  transform: matrix(45deg);
+}
+
+/* final conocimientos */
+
+/* inicio contacto */
+
+.mi-contacto {
+  background-image: url(https://media.istockphoto.com/id/1337329904/es/foto/imagen-de-fondo-de-cifrado-de-codificaci%C3%B3n-digital-de-seguridad-cibern%C3%A9tica.jpg?b=1&s=170667a&w=0&k=20&c=Pzg_3mgl0Y5U9MDOLXAimfLfzUqIg_bJU-px501wuIA=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-contacto-escribime {
+  background: repeating-radial-gradient(#f2a3a6, #ddc461);
+  width: 35%;
+  margin: 3%;
+  padding: 3%;
+  border: 3px solid #103631;
+  border-radius: 1em;
+  display: flex;
+}
+
+.columna-contacto {
+  padding: 1%;
+}
+
+.titulo-contacto,
+.titulo-escribime {
+  font-size: 3em;
+}
+
+.texto-contacto {
+  font-size: 1.2em;
+  margin-top: 5%;
+}
+
+.links-contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.links-item-contacto {
+  padding: 1%;
+  width: 100%;
+}
+
+.img-item-contacto {
+  color: #1b4f47;
+  font-size: 1.5em;
+  padding: 2.5%;
+  border-radius: 2em;
+}
+
+.item-contacto {
+  padding: 2%;
+  border: solid 2px #c5fcee;
+  transition-duration: 1s;
+  border-radius: 2em;
+}
+
+.img-item-contacto:hover {
+  color: #834ec3;
+}
+
+.img-item-contacto:hover .item-contacto {
+  background: repeating-radial-gradient(#d38dff, #4e6fc3);
+  color: #c5fcee;
+  border: solid 2px #008f7a;
+  transform: rotatey(380deg);
+} */
+
+.img-item-contacto:hover .item-mail {
+  background: repeating-radial-gradient(#495bc4, #4e6fc3);
+  color: #c5fcee;
+  border: solid 2px #0d1857;
+  transform: rotatey(380deg);
+}
+
+.img-item-contacto:active {
+  box-shadow: 2px 2px 8px 1px #3a2c35;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+  .nav-btn-cont {
+    width: 100%;
+    margin: 0.5%;
+  }
+
+  .nav-btn {
+    font-size: 1.3em;
+  }
+
+  .nav-nombre {
+    font-size: 3.5em;
+  }
+
+  .titulo-inicio {
+    font-size: 2.5em;
+  }
+
+  .texto-inicio {
+    font-size: 1.2em;
+  }
+
+  .btn-inicio {
+    width: 20%;
+    font-size: 1.5em;
+  }
+
+  .img-foto {
+    width: 100%;
+  }
+
+  .sobre-mi-text {
+    font-size: 1.2em;
+  }
+
+  .btn-a-contacto {
+    font-size: 1em;
+    width: 25%;
+  }
+
+  .contenedor-contacto-escribime {
+    width: 50%;
+  }
+
+  .titulo-contacto {
+    font-size: 2em;
+  }
+
+  .img-item-contacto {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 250px) {
+
+  .nav-btn-cont {
+    width: 100%;
+    margin: 0.5%;
+  }
+
+  .nav-btn {
+    font-size: 0.9em;
+  }
+
+  .nav-nombre {
+    font-size: 3em;
+  }
+
+  .titulo-inicio {
+    font-size: 2em;
+  }
+
+  .texto-inicio {
+    font-size: 1em;
+  }
+
+  .btn-inicio {
+    text-align: center;
+    width: 38%;
+    font-size: 1.2em;
+  }
+
+  .titulo-mi {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .container-mi {
+    flex-direction: column;
+  }
+
+  .mi-img {
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    width: 80%;
+  }
+  
+  .img-foto {
+    width: 100%;
+  }
+
+  .sobre-mi-text {
+    width: 100%;
+    padding: 5%;
+    font-size: 1.1em;
+  }
+
+  .btn-a-contacto {
+    font-size: 1.2em;
+    width: 25%;
+    margin-top: 2%;
+  }
+
+  .titulo-conocimientos {
+    font-size: 2em;
+  }
+
+  .contenedor-cuadros-conocimientos {
+    width: 100%;
+  }
+
+  .contenedor-contacto-escribime {
+    width: 80%;
+  }
+
+  .titulo-contacto {
+    font-size: 1.5em;
+  }
+
+  .img-item-contacto {
+    font-size: 1em;
+  }
+}
